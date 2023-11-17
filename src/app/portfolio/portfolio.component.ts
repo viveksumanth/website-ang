@@ -7,6 +7,8 @@ import { TimelineComponent } from '../timeline/timeline.component';
 import { ProjectsComponent } from '../projects/projects.component';
 import { MenuComponent } from '../menu/menu.component';
 import { HeaderComponent } from '../header/header.component';
+import { BlogComponent } from '../blog/blog.component';
+import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-portfolio',
   standalone: true,
@@ -18,7 +20,8 @@ import { HeaderComponent } from '../header/header.component';
     TimelineComponent,
     ProjectsComponent,
     MenuComponent,
-    HeaderComponent
+    HeaderComponent,
+    BlogComponent
   ],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.css'

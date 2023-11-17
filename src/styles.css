@@ -37,7 +37,8 @@ body{
 	position:relative;
 	overflow:hidden;
 	font-family: Lora, serif;
-	background-image:linear-gradient(to right bottom, #6f76d5d0,#0bf4a6c8) ;
+	background-image:linear-gradient(to right bottom, #6f76d5d0,#0bf4a6c8);
+	
 }
 *{
 	font-family: inherit;
@@ -78,9 +79,8 @@ img{
 .menu-btn > .lines > .l2{
 	color:rgb(8, 8, 8);
 	margin:6px 0;
-	
-	
 }
+
 .menu{
 	color:rgb(8, 8, 8);
 	position:absolute;
@@ -95,12 +95,14 @@ img{
 	transition:width .3s cubic-bezier(.785,.135,.15,.86);
 	overflow:hidden;
 }
+
 .menu:hover,
 .menu-btn:hover + .menu{
 	width:300px;
 	color:rgb(8, 8, 8);
 	
 }
+
 .menu > .inner{
 	height:100%;
 	width:300px;
@@ -192,6 +194,7 @@ body.border-dark .main-content > .page-border{
 	overflow:hidden;
 	box-shadow: 0 0 0 10px #F0F0F0;
 }
+
 .section{
 	position:absolute;
 	top:0;
@@ -211,13 +214,15 @@ body.border-dark .main-content > .page-border{
 .section-header{
 	position:relative;
 }
-.section-header > h2{
+
+.section-header > h2 {
 	font-size:28px;
 	font-weight:200;
 	margin:0;
 	text-transform:uppercase;
 	letter-spacing:4px;
 }
+
 .section-block{
 	padding:110px;
 	padding-top:0;
@@ -753,8 +758,8 @@ body.section-switching.up .animation-block{
 }
 .p-table > .header > .price > *{
 	display:inline-block;
-	*display:inline;
-	*zoom:1;
+	display:inline;
+	zoom:1;
 	position:relative;
 }
 .p-table > .header > .price > .currency{
@@ -772,8 +777,6 @@ body.section-switching.up .animation-block{
 	letter-spacing:2px;
 	color:rgba(0,0,0,.4);
 }
-
-
 
 /*=======================================================
 	Resume Section
@@ -1112,126 +1115,6 @@ body.section-switching.up .animation-block{
 	padding:28px !important;
 	overflow:auto;
 }
-
-/*=======================================================
-	Preloader
-=======================================================*/
-#preloader{
-	position:fixed;
-	top:0;
-	left:0;
-	height:100%;
-	width:100%;
-	z-index:999;
-	-webkit-transition: all .3s 1s ease;
-	-moz-transition: all .3s 1s ease;
-	transition: all .3s 1s ease;
-}
-#preloader > .left,
-#preloader > .right{
-	position:absolute;
-	top:0;
-	width:50%;
-	height:100%;
-	background:#FFF;
-	overflow:hidden;
-	z-index:99;
-	-webkit-transition:all .7s .3s ease;
-	-moz-transition:all .7s .3s ease;
-	transition:all .7s .3s ease;
-}
-#preloader > .left{
-	left:0;
-}
-#preloader > .right{
-	right:0;
-} 
-body.loaded #preloader{
-	visibility:hidden;
-}
-body.loaded #preloader > .left{
-	left:-50%;
-}
-body.loaded #preloader > .right{
-	right:-50%;
-}
-body.loaded #preloader > .left,
-body.loaded #preloader > .right,
-body.loaded #preloader .loader{
-	opacity:0;
-	visibility:hidden;
-}
-.loader{
-	height:140px;
-	width:140px;
-	border:solid 4px #FFF;
-	border-top-color:#303F9F;
-	border-right-color:#303F9F;
-	border-radius:50%;
-	position:absolute;
-	top:50%;
-	right:0;
-	left:0;
-	margin:auto;
-	margin-top:-70px;
-	transition:all .3s ease;
-	z-index:199;
-	-webkit-animation:loader 2s infinite linear;
-	-moz-animation:loader 2s infinite linear;
-	animation:loader 2s infinite linear;
-}
-.loader:before,
-.loader:after{
-	content: ' ';
-	position:absolute;
-	border:inherit;
-	border-radius:50%;
-}
-.loader:before{
-	left:15px;
-	top:15px;
-	bottom:15px;
-	right:15px;
-	opacity:.5;
-	-webkit-animation: loader 3s infinite linear;
-	-moz-animation: loader 3s infinite linear;
-	animation: loader 3s infinite linear;
-}
-.loader:after{
-	left:30px;
-	right:30px;
-	top:30px;
-	bottom:30px;
-	opacity:.25;
-	-webkit-animation: loader 1.5s infinite linear;
-	-moz-animation: loader 1.5s infinite linear;
-	animation: loader 1.5s infinite linear;
-}
-@-webkit-keyframes loader{
-	0%{
-		transform:rotate(0deg);
-	}
-	100%{
-		transform:rotate(360deg);
-	}
-}
-@-moz-keyframes loader{
-	0%{
-		transform:rotate(0deg);
-	}
-	100%{
-		transform:rotate(360deg);
-	}
-}
-@keyframes loader{
-	0%{
-		transform:rotate(0deg);
-	}
-	100%{
-		transform:rotate(360deg);
-	}
-}
-
 
 /*=======================================================
 	Responsive CSS
