@@ -78,3 +78,14 @@ height:1250px;
 padding: 20px;
 }
 
+p a {
+    color: #0077cc; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+    font-family: 'Arial', sans-serif; /* Set the font style */
+}
+
+p a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+

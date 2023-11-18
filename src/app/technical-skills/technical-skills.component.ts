@@ -9,16 +9,6 @@ import { CommonModule } from '@angular/common';
   styleUrl: './technical-skills.component.css'
 })
 export class TechnicalSkillsComponent {
-  tooltipVisible = false;
-  tooltipText: string = '';
 
-  showTooltip(skillName: string) {
-    this.tooltipVisible = true;
-    this.tooltipText = skillName;
-  }
-
-  hideTooltip() {
-    this.tooltipVisible = false;
-  }
 }
 

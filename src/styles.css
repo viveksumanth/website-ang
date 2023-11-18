@@ -303,8 +303,8 @@ a.btn-custom{
 	font-size:11px;
 	font-weight:400;
 	display:inline-block;
-	*display:inline;
-	*zoom:1;
+	/* *display:inline;
+	*zoom:1; */
 	line-height:1em;
 	padding:17px 32px;
 	position:relative;
@@ -530,7 +530,7 @@ body.section-switching.up .animation-block{
 
 /*======================================================= */
 	About Section
-/* =======================================================*/ */
+/* =======================================================*/
 .about-section{
 	background:#ffffff;
 	background-repeat: no-repeat;
@@ -886,8 +886,8 @@ body.section-switching.up .animation-block{
 }
 .testimonials-slider .owl-controls .owl-dot{
 	display:inline-block;
-	*display:inline;
-	*zoom:1;
+	/* *display:inline;
+	*zoom:1; */
 	padding:15px 0;
 	margin:-15px 0;
 	margin-right:3px;
@@ -926,8 +926,8 @@ body.section-switching.up .animation-block{
 }
 .portfolio-filters > li{
 	display:inline-block;
-	*display:inline;
-	*zoom:1;
+	/* *display:inline;
+	*zoom:1; */
 	margin-right:25px;
 }
 .portfolio-filters > li > a{
