@@ -82,7 +82,6 @@ p a {
     color: #0077cc; /* Link color */
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make the text bold */
-    font-family: 'Arial', sans-serif; /* Set the font style */
 }
 
 p a:hover {
