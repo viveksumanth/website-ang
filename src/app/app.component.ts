@@ -29,5 +29,5 @@ import { ProjectsComponent } from './projects/projects.component';
 })
 
 export class AppComponent {
-  title = 'myApp';
+  title = 'Vivek-Profile';
 }
