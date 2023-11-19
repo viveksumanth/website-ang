@@ -88,3 +88,22 @@ p a:hover {
     text-decoration: underline; /* Underline on hover */
 }
 
+/* Waving hand */
+
+@keyframes wave {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25%, 75% {
+      transform: rotate(-30deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .waving-hand {
+    display: inline-block;
+    font-size: 1em;
+    animation: wave 5s;
+  }
