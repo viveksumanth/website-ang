@@ -1,24 +1,66 @@
 <div class='main-content' >
+
     <div class = 'sections'>
-        <section id='about' class='section section-main active'>
+        <section id='projects' class='section section-main active'>
             <app-menu></app-menu>
-            <img src="assets/img/portfolio/profile.webp" alt="Avatar" class="avatar">
-            <title>Project Report</title>
-        
-            <h1>Project Report</h1>
-        
-            <!-- Replace 'image.jpg' with the actual filename and path of your image -->
-        
-            <h2>Introduction</h2>
-            <p>
-                This is my favorite image because it captures a beautiful moment. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Sed at justo eget nulla dictum congue. 
-                Vivamus eu felis tempor, faucibus velit at, accumsan ex.
-            </p>
-        
-            <!-- Add more sections as needed with appropriate headings and content -->
-        
+            <div class="section-header">
+                <h2>My <strong class="color">projects</strong></h2>
+              </div>
+              <br>
+              <br>
+            <!-- Project 1 -->
+            <div class='project'>
+                <h2>{{projectOneName}}</h2>
+                <br>
+                <img src='assets/img/portfolio/lowcoststorage.png' alt='Project 1 Image'>
+                <p>{{projectOneDescription}}</p>
+
+                <!-- Additional Information -->
+                <p><b>Problem:</b>{{projectOneProblemStatement}}</p>
+                <p><b>Solution:</b> Details about the solution for Project 1.</p>
+                <p><b>Result:</b> Details about the approach taken for Project 1.</p>
+            </div>
+
+            <!-- Project 2 -->
+            <div class='project'>
+                <img src='project2-image.jpg' alt='Project 2 Image'>
+                <h2>Project 2</h2>
+                <p>Description of Project 2 goes here.</p>
+
+                <!-- Additional Information -->
+                <div class='project-heading'>Problem:</div>
+                <p>Details about the problem in Project 2.</p>
+
+                <div class='project-heading'>Solution:</div>
+                <p>Details about the solution for Project 2.</p>
+
+                <div class='project-heading'>Approach:</div>
+                <p>Details about the approach taken for Project 2.</p>
+            </div>
+
+
+            <br>
+            <br>            <br>
+            <br>            <br>
+            <br>            <br>
+            <br>            <br>
+            <br>            <br>
+            <br>            <br>
+            <br>
         </section>
     </div> 
 </div>
+
+
+<!-- <img src="assets/img/portfolio/profile.webp" alt="Avatar" class="avatar">
+<title>Project Report</title>
+
+<h1>Project Report</h1>
+
+<h2>Introduction</h2>
+<p>
+    This is my favorite image because it captures a beautiful moment. 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Sed at justo eget nulla dictum congue. 
+    Vivamus eu felis tempor, faucibus velit at, accumsan ex.
+</p> -->

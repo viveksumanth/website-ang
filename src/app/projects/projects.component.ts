@@ -13,5 +13,13 @@ import { RouterLink, RouterLinkActive  } from '@angular/router';
   styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
+  projectOneName = "Low cost storage for Audit logs";
+
+  projectTwoName = "Generate performance metrics vs system metrics time-series charts";
+
+  projectThreeName = "Application logs in Native JSON";
+  
+  projectFourName = "Credentials Migrartion without log of metrics"
+
 
 }

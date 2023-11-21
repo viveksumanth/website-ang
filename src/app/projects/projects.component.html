@@ -1,56 +1,95 @@
 <div id="projects" class="section-block services-block">
    <div class="container-fluid">
      <div class="section-header">
-       <h2>My <strong class="color"> works</strong></h2>
+       <h2>My <strong class="color"> Projects</strong></h2>
      </div>
      <div class="card-group">
 
       <div class="card">
-        <div class="card-header">Project 1</div>
-        <img src="assets/img/portfolio/uv.webp" alt="Project 1" />
-        <div class="card-footer">This is a description of the first project I worked on.
-         This is a description of the second project I worked on.
-         This is a description of the second project I worked on.
-         This is a description of the second project I worked on.
-      </div>
-      <div class='intro-btns' >
+        <div class="card-header"><B>{{projectOneName}}</B></div>
+        <br>
+        <img src="assets/img/portfolio/lowcoststorage.webp" alt="Project 1" />
+        <div class="tech-stack">Tech Stack: Java, AWS S3-SDK, SpringBoot, Mockito, JUnit</div>
+        <hr>
+
+        <div class="card-footer">
+         <ul>
+            <li>Designed cost-effective solution for storing Audit logs through extensive cost analysis across various S3 Storage classes.</li>
+            <li>Created a Spring Bean to store S3 bucket configurations and seamlessly integrated Bean with AWS-S3 SDK.</li>
+            <li>Achieved annual storage savings of up to <B> $1.7 million </B> by storing Audit logs in S3 Glacier Instant Retrieval storage.</li>
+            <!-- Add more bullet points as needed -->
+            </ul>
+        </div>
+      <!-- <div class='intro-btns' >
         <a routerLink="/project1" routerLinkActive="active" ariaCurrentWhenActive="page" class='btn-custom section-toggle' style="margin: 10px; ">
            View More
         </a>
-     </div>
+     </div> -->
      </div>
 
       <div class="card">
-        <div class="card-header">Project 2</div>
-        <img src="assets/img/portfolio/uv.webp" alt="Project 2" />
-        <div class="card-footer">This is a description of the second project I worked on.</div>
-        <div class='intro-btns' >
-          <a href='/project2' class='btn-custom section-toggle' style="margin: 10px;">
+        <div class="card-header"><B>{{projectTwoName}}</B></div>
+        <br>
+        <img src="assets/img/portfolio/project2.webp" alt="Project 2" />
+        <div class="tech-stack">Tech Stack: Java, SpringBoot, JFree, Mockito, JUnit</div>
+        <hr>
+        <div class="card-footer">
+         <ul>
+            <li>Developed command-driven tool for on-call operators, generating time series charts correlating host system metrics (CPU, Memory, Cache, Device Heat) and performance metrics (Latency/Throughput).</li>
+            <li>Retrieved and filtered raw system logs for granular insights into host-level system and service metrics (Encrypt, Decrypt operations).</li>
+            <li>Utilized JFree library for time-series chart plotting, implemented robust unit testing with Mockito and JUnit, empowering efficient troubleshooting and saving 120 hours of monthly developer time.</li>
+            <!-- Add more bullet points as needed -->
+            </ul>
+        </div>
+
+        <!-- <div class='intro-btns' > -->
+          <!-- <a href='/project2' class='btn-custom section-toggle' style="margin: 10px;">
              View More
           </a>
-       </div>
+       </div> -->
       </div>
 
       <div class="card">
-        <div class="card-header">Project 3</div>
-        <img src="assets/img/portfolio/uv.webp" alt="Project 3" />
-        <div class="card-footer">This is a description of the third project I worked on.</div>
-        <div class='intro-btns' >
-          <a href='/project3' class='btn-custom section-toggle' style="margin: 10px;">
-             View More
-          </a>
+         <div class="card-header"><B>{{projectThreeName}}</B></div>
+         <br>
+         <img src="assets/img/portfolio/project3.webp" alt="Project 2" />
+         <div class="tech-stack">Tech Stack: Java, SpringBoot, Log4j2, Mockito, JUnit</div>
+         <hr>
+         <div class="card-footer">
+          <ul>
+            <li> Optimized log retrieval in a security module (HSM) by generating application logs in the native Apache Log4j 2 JSON layout.
+            <li>Resolved bottlenecks in Log puller service by eliminating the CPU-intensive log format conversion and <B>improved log retrieval performance by 50%.</B></li>
+             <!-- Add more bullet points as needed -->
+             </ul>
+         </div>
+ 
+         <!-- <div class='intro-btns' > -->
+           <!-- <a href='/project2' class='btn-custom section-toggle' style="margin: 10px;">
+              View More
+           </a>
+        </div> -->
        </div>
-      </div>
 
-      <div class="card">
-         <div class="card-header">Project 3</div>
-         <img src="assets/img/portfolio/uv.webp" alt="Project 3" />
-         <div class="card-footer">This is a description of the third project I worked on.</div>
-         <div class='intro-btns' >
-          <a href='' class='btn-custom section-toggle' style="margin: 10px;">
-             View More
-          </a>
-       </div>
+       <div class="card">
+         <div class="card-header"><B>{{projectFourName}}</B></div>
+         <br>
+         <img src="assets/img/portfolio/project4.webp" alt="Project 4" />
+         <div class="tech-stack">Tech Stack: Java, SpringBoot, FeatureFlagging, Mockito, JUnit</div>
+         <hr>
+         <div class="card-footer">
+          <ul>
+            <li>Improved system's security by implementing a Java-based credential solution to generate rotating team-specific credentials. </li>
+            <li>Prevented potential security breaches by proactively identifying and eliminating the risk of using hard-coded credentials. </li>
+            <li>Migrated to new credentials using feature flagging without any loss of metrics in any production regions </li>
+             <!-- Add more bullet points as needed -->
+             </ul>
+         </div>
+ 
+         <!-- <div class='intro-btns' > -->
+           <!-- <a href='/project2' class='btn-custom section-toggle' style="margin: 10px;">
+              View More
+           </a>
+        </div> -->
        </div>
 
     </div>
